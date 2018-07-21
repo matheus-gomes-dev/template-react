@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack-dev-server --progress --colors --inline --hot",
     "production": "webpack --progress -p",
-    "build": "webpack"
+    "build": "webpack",
+    "test": "./node_modules/.bin/jest tests/**/*.test.js --require babel-register"
   },
   "keywords": [],
   "author": "Matheus Lima <lima.eca@gmail.com> (https://github.com/matheus-lima92)",
