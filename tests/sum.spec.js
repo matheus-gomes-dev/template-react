@@ -14,7 +14,7 @@ describe('Utils', () => {
   });
 
   describe('Tests to Utils functions', () => {
-    it('Sum function: adds 1 + 2 to equal 3', () => {
+    it('Sum function: 1 + 2 must be equal to 3', () => {
       expect(sum(1, 2)).to.eql(3);
     });
   });
